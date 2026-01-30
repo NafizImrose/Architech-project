@@ -243,6 +243,34 @@ nav h3 {
   font-weight: 600;
   color: #727272;
 }
+.foot {
+  max-width: 84vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.foot h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.foot > p {
+  font-size: 1rem;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.cpy-right {
+  background-color: #fff4e7;
+  padding: 38px 0;
+  font: 1.25rem;
+  color: #727272;
+  margin-bottom: 216px;
+}
+.sponspors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
 
 /* screen breack point */
 @media screen and (max-width: 764px) {
@@ -326,5 +354,16 @@ nav h3 {
     text-align: center;
     width: 50%;
     padding: 35px;
+  }
+  .sponspors {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+  .cpy-right {
+    margin-bottom: 50px;
+  }
+  .some-facts {
+    margin-bottom: 100px;
   }
 }
