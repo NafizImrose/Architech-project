@@ -271,6 +271,9 @@ nav h3 {
   align-items: center;
   margin-bottom: 130px;
 }
+.child-spons img {
+  filter: grayscale(100%);
+}
 
 /* screen breack point */
 @media screen and (max-width: 764px) {
