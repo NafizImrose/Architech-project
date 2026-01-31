@@ -4,6 +4,18 @@
 html {
   font-size: clamp(14px, 1vw, 16px);
 }
+/* scroll animation added */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* scroll animaiton ends */
 
 .work-sans {
   font-family: "Work Sans", sans-serif;
